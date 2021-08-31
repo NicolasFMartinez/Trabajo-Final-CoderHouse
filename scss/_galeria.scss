@@ -1,0 +1,22 @@
+@mixin sizes ($weight, $height) {
+    weight: $weight;
+    height: $height;
+}
+
+
+.galeriacontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    margin-left: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+    align-items: center;
+    } 
+
+
+.galeriafoto {
+    @include sizes ( 100%, 100%);
+
+    object-fit: cover;
+}

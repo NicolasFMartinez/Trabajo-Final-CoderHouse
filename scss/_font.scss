@@ -1,0 +1,13 @@
+$fontprimario: 'Oswald',
+sans-serif;
+$fontsecundario: 'Noto Sans',
+sans-serif;
+
+
+
+.promo, .servi, .lservi, .figc, p, .contac, .piepag {
+    font-family: $fontsecundario
+}
+.header, h1, h2{
+    font-family: $fontprimario
+}

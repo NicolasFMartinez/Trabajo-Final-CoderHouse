@@ -1,0 +1,54 @@
+
+@mixin sizes ($weight, $height) {
+    weight: $weight;
+    height: $height;
+}
+
+.promo {
+    background-color: none;
+    @include sizes ( 300 , 350) ;
+    border: 5px solid gray;
+    padding: 50px;
+    margin: 20px;
+    position: relative;
+    animation : {
+        name: promoef;
+        duration: 1s;
+        iteration-count: 1;
+    }
+    transition-timing-function: ease
+}
+
+@keyframes promoef {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: green;
+        left: 200px;
+        top: 0px;
+    }
+
+    100% {
+        background-color: none;
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.proefec {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.proefec:hover {
+    transform: rotate(360deg);
+}
+
+.imgpb {
+    background-color: none;
+    width: 100%;
+    padding: 20px;
+}

@@ -1,0 +1,38 @@
+$background : none ;
+$decotext : none ;
+@import "color";
+.servi {
+    width: 100%;
+    padding-left: 15px;
+    margin-left: 15px;
+    text-align: left;
+    float: center;
+    font : {
+        style: italic;
+        size: vw;
+    }
+    background-color: $background ;
+}
+.lservi{
+        margin-left: 25px;
+        ol{
+            li {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: $background ;
+                float: left;
+                font-style: oblique;
+            }
+        }
+    }
+.fca{
+    .figc {
+    text-decoration: $decotext;
+    
+}
+}
+.DescriS {
+text-decoration: $decotext;
+}

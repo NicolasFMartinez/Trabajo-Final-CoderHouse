@@ -1,0 +1,58 @@
+$fontweight : 2000px ;
+
+
+.imgbem {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.body__bem {
+    background-image: url('/fotos/marmol.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.menu {
+    font: {
+        size: 18px;
+        weight: bold;
+}
+}
+p {
+    text-transform: none;
+    letter-spacing: 4px;
+    font: {
+        size: px;
+        
+        size: 20px;
+        style: oblique;
+        weight: $fontweight -1940 ;
+        
+    }
+}
+
+.contac {
+    
+    margin: 10px;
+}
+.main__encabezado {
+    letter-spacing: 3px;
+    text : {
+        transform: initial;
+        align: center;
+    }
+    font : {
+        weight: bold;
+        size: 40px;
+        style: oblique;
+        weight: $fontweight +60
+    }
+    display: block;
+    margin-bottom: 50px;
+}
+.footer__bem {
+    font-style: italic;
+    float: inline-end;
+    margin-top: 50px;
+}
